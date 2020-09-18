@@ -1,0 +1,28 @@
+{
+    "name": "Traffic Jam",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "colors.ts",
+        "track.ts",
+        "cars.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
